@@ -1,0 +1,21 @@
+package jan_27th;
+
+public class ExceptionEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+			int a=10,b=5,c=5;
+			int result;
+			result=a/(b-c);
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error in the code"+e);
+		}
+		System.out.print("outof the block");
+
+	}
+
+}
